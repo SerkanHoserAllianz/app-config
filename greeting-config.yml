@@ -15,3 +15,11 @@ greeting:
   displayFortune: true
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
+
+
+[mac, linux]
+$ SPRING_PROFILES_ACTIVE=qa mvn clean spring-boot:run
+
+[windows]
+$ set SPRING_PROFILES_ACTIVE=qa
+$ mvn clean spring-boot:run
